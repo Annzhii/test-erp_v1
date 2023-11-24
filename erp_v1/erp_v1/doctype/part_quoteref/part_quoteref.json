@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PQ-{user_name}-{YY}-{#####}",
+ "creation": "2023-10-22 12:53:03.796740",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_image\u4ea7\u54c1\u56fe\u7247",
+  "part_name\u4ea7\u54c1\u540d\u79f0",
+  "part_size\u4ea7\u54c1\u5c3a\u5bf8",
+  "part_material\u4ea7\u54c1\u6750\u6599",
+  "part_weight\u4ea7\u54c1\u91cd\u91cf",
+  "part_color\u4ea7\u54c1\u989c\u8272",
+  "\u539f\u6750\u6599_section",
+  "material\u539f\u6750\u6599",
+  "\u5305\u88c5_section",
+  "packing_supply\u5305\u88c5\u6750\u6599",
+  "\u540e\u5904\u7406_section",
+  "secondary_pperation\u540e\u5904\u7406",
+  "unit_price\u5355\u4ef7\u4ef7\u683c",
+  "section_break_f1iok",
+  "user_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_image\u4ea7\u54c1\u56fe\u7247",
+   "fieldtype": "Attach Image",
+   "label": "Part Image/\u4ea7\u54c1\u56fe\u7247"
+  },
+  {
+   "fieldname": "part_name\u4ea7\u54c1\u540d\u79f0",
+   "fieldtype": "Data",
+   "label": "Part Name/\u4ea7\u54c1\u540d\u79f0"
+  },
+  {
+   "fieldname": "part_size\u4ea7\u54c1\u5c3a\u5bf8",
+   "fieldtype": "Data",
+   "label": "Part Size/\u4ea7\u54c1\u5c3a\u5bf8"
+  },
+  {
+   "fieldname": "part_material\u4ea7\u54c1\u6750\u6599",
+   "fieldtype": "Data",
+   "label": "Part Material/\u4ea7\u54c1\u6750\u6599"
+  },
+  {
+   "fieldname": "part_weight\u4ea7\u54c1\u91cd\u91cf",
+   "fieldtype": "Data",
+   "label": "Part Weight/\u4ea7\u54c1\u91cd\u91cf"
+  },
+  {
+   "fieldname": "part_color\u4ea7\u54c1\u989c\u8272",
+   "fieldtype": "Data",
+   "label": "Part Color/\u4ea7\u54c1\u989c\u8272"
+  },
+  {
+   "fieldname": "\u539f\u6750\u6599_section",
+   "fieldtype": "Section Break",
+   "label": "\u539f\u6750\u6599"
+  },
+  {
+   "fieldname": "material\u539f\u6750\u6599",
+   "fieldtype": "Data",
+   "label": "Material/\u539f\u6750\u6599"
+  },
+  {
+   "fieldname": "\u5305\u88c5_section",
+   "fieldtype": "Section Break",
+   "label": "\u5305\u88c5"
+  },
+  {
+   "fieldname": "packing_supply\u5305\u88c5\u6750\u6599",
+   "fieldtype": "Data",
+   "label": "Packing supply/\u5305\u88c5\u6750\u6599"
+  },
+  {
+   "fieldname": "\u540e\u5904\u7406_section",
+   "fieldtype": "Section Break",
+   "label": "\u540e\u5904\u7406"
+  },
+  {
+   "fieldname": "secondary_pperation\u540e\u5904\u7406",
+   "fieldtype": "Data",
+   "label": "Secondary Pperation/\u540e\u5904\u7406"
+  },
+  {
+   "fieldname": "unit_price\u5355\u4ef7\u4ef7\u683c",
+   "fieldtype": "Data",
+   "label": "Unit Price/\u5355\u4ef7\u4ef7\u683c"
+  },
+  {
+   "fieldname": "section_break_f1iok",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Read Only",
+   "label": "User Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-22 16:32:19.544557",
+ "modified_by": "Administrator",
+ "module": "ERP_v1",
+ "name": "Part QuoteRef",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
